@@ -10,6 +10,8 @@ input.onButtonPressed(Button.A, function () {
         `)
     music.playMelody("C5 F G B F E C5 A ", 120)
     basic.showIcon(IconNames.Yes)
+    basic.pause(500)
+    basic.clearScreen()
     basic.showString("Byebye")
     basic.clearScreen()
 })
